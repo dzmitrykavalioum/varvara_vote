@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Varvara K. — Wybory do Samorządu Uczniowskiego</title>
+  <meta name="description" content="Varvara K., klasa 7B — kandydatka na przewodniczącą Samorządu Uczniowskiego. Program, pomysły i gry.">
+  <meta name="theme-color" content="#7c3aed">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Varvara K. — Wybory do Samorządu Uczniowskiego">
+  <meta property="og:description" content="Program, pomysły i gry. Głosowanie: 15 października 🗳️">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#top" class="logo"><span class="logo__badge">V</span><span data-name>Varvara K.</span></a>
+
+      <nav class="nav" id="nav">
+        <a href="#about" data-i18n="nav.about"></a>
+        <a href="#why" data-i18n="nav.why"></a>
+        <a href="#program" data-i18n="nav.program"></a>
+        <a href="#ideas" data-i18n="nav.ideas"></a>
+        <a href="#games" data-i18n="nav.games"></a>
+        <a href="#links" data-i18n="nav.links"></a>
+      </nav>
+
+      <div class="header__right">
+        <div class="lang" role="group" aria-label="Language">
+          <button type="button" data-lang="pl">PL</button>
+          <button type="button" data-lang="en">EN</button>
+          <button type="button" data-lang="ru">RU</button>
+          <button type="button" data-lang="uk">UA</button>
+        </div>
+        <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="nav" data-i18n-aria="nav.menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ================= HERO ================= -->
+    <section class="hero">
+      <div class="blob blob--1"></div>
+      <div class="blob blob--2"></div>
+      <div class="blob blob--3"></div>
+
+      <div class="container hero__grid">
+        <div class="hero__text">
+          <span class="badge">🗳️ <span data-i18n="hero.badge"></span></span>
+          <h1 class="hero__name" data-name>Varvara K.</h1>
+          <p class="hero__role" data-i18n="hero.role"></p>
+          <p class="hero__meta"><span data-i18n="hero.meta"></span> · <b data-i18n="hero.date"></b></p>
+          <p class="hero__lead" data-i18n="hero.lead"></p>
+
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="#program" data-i18n="hero.ctaProgram"></a>
+            <a class="btn btn--ghost" href="#ideas" data-i18n="hero.ctaIdeas"></a>
+          </div>
+
+          <div class="countdown" id="countdown" hidden>
+            <p class="countdown__title" data-i18n="countdown.title"></p>
+            <div class="countdown__boxes" id="countdown-boxes">
+              <div class="cd"><span class="cd__num" data-cd="d">0</span><span class="cd__lbl" data-i18n="countdown.days"></span></div>
+              <div class="cd"><span class="cd__num" data-cd="h">0</span><span class="cd__lbl" data-i18n="countdown.hours"></span></div>
+              <div class="cd"><span class="cd__num" data-cd="m">0</span><span class="cd__lbl" data-i18n="countdown.minutes"></span></div>
+              <div class="cd"><span class="cd__num" data-cd="s">0</span><span class="cd__lbl" data-i18n="countdown.seconds"></span></div>
+            </div>
+            <p class="countdown__msg" id="countdown-msg" hidden></p>
+          </div>
+        </div>
+
+        <div class="hero__photo">
+          <div class="photo-frame photo-frame--main">
+            <!-- Положите фото в img/photo-1.jpg — оно появится здесь -->
+            <img src="img/photo-1.jpg" data-i18n-alt="photo.alt1" alt="" onerror="this.onerror=null;this.src='img/placeholder.svg'">
+          </div>
+          <span class="sticker sticker--1" aria-hidden="true">⚽</span>
+          <span class="sticker sticker--2" aria-hidden="true">🎨</span>
+          <span class="sticker sticker--3" aria-hidden="true">💡</span>
+          <span class="sticker sticker--4" aria-hidden="true">🎵</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section__title reveal"><span class="emoji">👋</span> <span data-i18n="about.title"></span></h2>
+        <div class="about__grid">
+          <div class="about__text reveal">
+            <p data-i18n="about.p1"></p>
+            <p data-i18n="about.p2"></p>
+          </div>
+          <div class="about__photos reveal">
+            <!-- img/photo-2.jpg и img/photo-3.jpg -->
+            <div class="photo-frame photo-frame--tilt-l">
+              <img src="img/photo-2.jpg" data-i18n-alt="photo.alt2" alt="" loading="lazy" onerror="this.onerror=null;this.src='img/placeholder.svg'">
+            </div>
+            <div class="photo-frame photo-frame--tilt-r">
+              <img src="img/photo-3.jpg" data-i18n-alt="photo.alt3" alt="" loading="lazy" onerror="this.onerror=null;this.src='img/placeholder.svg'">
+            </div>
+          </div>
+        </div>
+
+        <ol class="timeline reveal">
+          <li class="timeline__item">
+            <span class="timeline__dot">🏙️</span>
+            <b data-i18n="about.minsk"></b>
+            <span data-i18n="about.minskText"></span>
+          </li>
+          <li class="timeline__item">
+            <span class="timeline__dot">🏰</span>
+            <b data-i18n="about.torun"></b>
+            <span data-i18n="about.torunText"></span>
+          </li>
+          <li class="timeline__item timeline__item--now">
+            <span class="timeline__dot">📍</span>
+            <b data-i18n="about.wroclaw"></b>
+            <span data-i18n="about.wroclawText"></span>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ================= WHY ME ================= -->
+    <section class="section section--tint" id="why">
+      <div class="container">
+        <h2 class="section__title reveal"><span class="emoji">✨</span> <span data-i18n="why.title"></span></h2>
+        <p class="section__subtitle reveal" data-i18n="why.subtitle"></p>
+        <div class="cards cards--3" id="why-list"></div>
+      </div>
+    </section>
+
+    <!-- ================= PROGRAM ================= -->
+    <section class="section" id="program">
+      <div class="container">
+        <h2 class="section__title reveal"><span class="emoji">📋</span> <span data-i18n="program.title"></span></h2>
+        <p class="section__subtitle reveal" data-i18n="program.subtitle"></p>
+        <div class="cards cards--4" id="program-list"></div>
+      </div>
+    </section>
+
+    <!-- ================= IDEAS ================= -->
+    <section class="section" id="ideas">
+      <div class="container">
+        <div class="ideas reveal">
+          <div class="ideas__text">
+            <h2 class="section__title section__title--light"><span class="emoji">💡</span> <span data-i18n="ideas.title"></span></h2>
+            <p data-i18n="ideas.text"></p>
+            <ol class="steps" id="ideas-steps"></ol>
+          </div>
+          <div class="ideas__action">
+            <a class="btn btn--big" id="form-btn" href="#" target="_blank" rel="noopener" data-i18n="ideas.button"></a>
+            <p class="ideas__soon" id="form-soon" hidden data-i18n="ideas.soon"></p>
+            <p class="ideas__note" data-i18n="ideas.note"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= GAMES ================= -->
+    <section class="section section--tint" id="games">
+      <div class="container">
+        <h2 class="section__title reveal"><span class="emoji">🎮</span> <span data-i18n="games.title"></span></h2>
+        <p class="section__subtitle reveal" data-i18n="games.subtitle"></p>
+
+        <div class="tabs" role="tablist">
+          <button class="tab is-active" role="tab" aria-selected="true" aria-controls="panel-ttt" id="tab-ttt" data-i18n="games.tabTtt"></button>
+          <button class="tab" role="tab" aria-selected="false" aria-controls="panel-memory" id="tab-memory" data-i18n="games.tabMemory"></button>
+        </div>
+
+        <!-- Крестики-нолики -->
+        <div class="game" id="panel-ttt" role="tabpanel" aria-labelledby="tab-ttt">
+          <p class="game__intro" data-i18n="ttt.intro"></p>
+          <div class="score">
+            <div class="score__item score__item--x"><span data-i18n="ttt.you"></span><b id="ttt-x">0</b></div>
+            <div class="score__item"><span data-i18n="ttt.draws"></span><b id="ttt-d">0</b></div>
+            <div class="score__item score__item--o"><span data-i18n="ttt.bot"></span><b id="ttt-o">0</b></div>
+          </div>
+          <div class="ttt" id="ttt-board"></div>
+          <p class="game__status" id="ttt-status" aria-live="polite"></p>
+          <button class="btn btn--primary btn--small" id="ttt-restart" type="button" data-i18n="ttt.restart"></button>
+        </div>
+
+        <!-- Мемори -->
+        <div class="game" id="panel-memory" role="tabpanel" aria-labelledby="tab-memory" hidden>
+          <p class="game__intro" data-i18n="memory.intro"></p>
+          <div class="score">
+            <div class="score__item"><span data-i18n="memory.moves"></span><b id="mem-moves">0</b></div>
+            <div class="score__item"><span data-i18n="memory.time"></span><b id="mem-time">0:00</b></div>
+            <div class="score__item"><span data-i18n="memory.best"></span><b id="mem-best">—</b></div>
+          </div>
+          <div class="memory" id="mem-board"></div>
+          <p class="game__status" id="mem-status" aria-live="polite"></p>
+          <button class="btn btn--primary btn--small" id="mem-restart" type="button" data-i18n="memory.restart"></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= LINKS ================= -->
+    <section class="section" id="links">
+      <div class="container">
+        <h2 class="section__title reveal"><span class="emoji">🔗</span> <span data-i18n="links.title"></span></h2>
+        <div class="links">
+          <a class="link-card reveal" id="school-link" href="#" target="_blank" rel="noopener">
+            <span class="link-card__icon">🏫</span>
+            <span>
+              <b data-i18n="links.school"></b>
+              <small data-i18n="links.schoolDesc"></small>
+            </span>
+            <span class="link-card__arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+
+        <div class="social" id="social" hidden>
+          <h3 data-i18n="links.social"></h3>
+          <div class="social__list" id="social-list"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p><b data-name>Varvara K.</b> · <span id="year"></span></p>
+      <p data-i18n="footer.made"></p>
+      <button class="footer__link" type="button" id="privacy-open" data-i18n="footer.privacy"></button>
+    </div>
+  </footer>
+
+  <dialog class="modal" id="privacy">
+    <h2 data-i18n="privacy.title"></h2>
+    <ul id="privacy-list"></ul>
+    <button class="btn btn--primary btn--small" type="button" id="privacy-close" data-i18n="privacy.close"></button>
+  </dialog>
+
+  <script src="js/config.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/games.js"></script>
+</body>
+</html>
