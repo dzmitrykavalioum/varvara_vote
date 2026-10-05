@@ -9,13 +9,13 @@ window.I18N = {
   pl: {
     meta: {
       title: "Varvara K. — Wybory do Samorządu Uczniowskiego",
-      description: "Varvara K., klasa 7B — kandydatka na przewodniczącą Samorządu Uczniowskiego. Program, pomysły i gry."
+      description: "Varvara K., klasa 7C — kandydatka na przewodniczącą Samorządu Uczniowskiego. Program, pomysły i gry."
     },
     nav: { about: "O mnie", why: "Dlaczego ja", program: "Program", ideas: "Pomysły", games: "Gry", links: "Linki", menu: "Menu" },
     hero: {
       badge: "Wybory do Samorządu Uczniowskiego",
       role: "Kandydatka na przewodniczącą Samorządu Uczniowskiego",
-      meta: "14 lat · klasa 7B",
+      meta: "14 lat · klasa 7C",
       lead: "Chcę, żeby do naszej szkoły chciało się przychodzić. Mniej nudy, więcej wspólnych chwil!",
       ctaProgram: "Zobacz program",
       ctaIdeas: "Podziel się pomysłem",
@@ -30,7 +30,7 @@ window.I18N = {
     photo: { alt1: "Zdjęcie Varvary", alt2: "Varvara — zdjęcie 2", alt3: "Varvara — zdjęcie 3" },
     about: {
       title: "O mnie",
-      p1: "Cześć! Jestem Varvara, mam 14 lat i chodzę do klasy 7B. Urodziłam się w Mińsku, potem mieszkałam w Toruniu, a od sierpnia mieszkam we Wrocławiu.",
+      p1: "Cześć! Jestem Varvara, mam 14 lat i chodzę do klasy 7C. Urodziłam się w Mińsku, potem mieszkałam w Toruniu, a od sierpnia mieszkam we Wrocławiu.",
       p2: "W każdym nowym miejscu uczyłam się szybko poznawać ludzi i odnajdywać się w nowej szkole. Wiem, jak ważne jest, żeby każdy czuł się tu dobrze — i ci, którzy są tu od lat, i nowi uczniowie.",
       minsk: "Mińsk", minskText: "Tu się urodziłam",
       torun: "Toruń", torunText: "Tu mieszkałam i chodziłam do szkoły",
@@ -54,8 +54,6 @@ window.I18N = {
         { icon: "🎅", tag: "low", title: "Tajny Mikołaj", text: "Losujemy osoby i przed świętami robimy sobie drobne, sympatyczne prezenty." },
         { icon: "🥳", tag: "free", title: "Dni tematyczne", text: "Dzień piżamy, dzień kolorów, dzień na odwrót — wystarczy dobry humor i coś z szafy." },
         { icon: "🧁", tag: "low", title: "Kiermasz ciast", text: "Pieczemy i sprzedajemy, a zebrane pieniądze idą na szkolne wydarzenia albo cel charytatywny." },
-        { icon: "🎵", tag: "free", title: "Muzyka na przerwach", text: "Wspólna playlista, do której każdy może zgłosić swoje propozycje." },
-        { icon: "📚", tag: "free", title: "Wymiana książek", text: "Półka, na której zostawiasz przeczytaną książkę i bierzesz inną. Zero kosztów, dużo czytania." },
         { icon: "🎲", tag: "free", title: "Przerwa z planszówkami", text: "Przynosimy gry z domu i gramy razem w wybrane dni. Idealne na deszczową pogodę." },
         { icon: "🌟", tag: "free", title: "Szkolny Mam Talent", text: "Śpiewasz, tańczysz, żonglujesz? Pokaż się na scenie raz w semestrze!" }
       ]
@@ -122,13 +120,13 @@ window.I18N = {
   en: {
     meta: {
       title: "Varvara K. — Student Council Election",
-      description: "Varvara K., class 7B — running for Student Council President. Program, ideas and games."
+      description: "Varvara K., class 7C — running for Student Council President. Program, ideas and games."
     },
     nav: { about: "About", why: "Why me", program: "Program", ideas: "Ideas", games: "Games", links: "Links", menu: "Menu" },
     hero: {
       badge: "Student Council Election",
       role: "Running for Student Council President",
-      meta: "14 years old · class 7B",
+      meta: "14 years old · class 7C",
       lead: "I want our school to be a place you actually look forward to. Less boredom, more good times together!",
       ctaProgram: "See my program",
       ctaIdeas: "Share an idea",
@@ -143,7 +141,7 @@ window.I18N = {
     photo: { alt1: "Photo of Varvara", alt2: "Varvara — photo 2", alt3: "Varvara — photo 3" },
     about: {
       title: "About me",
-      p1: "Hi! I'm Varvara, I'm 14 and I'm in class 7B. I was born in Minsk, then lived in Toruń, and since August I've been living in Wrocław.",
+      p1: "Hi! I'm Varvara, I'm 14 and I'm in class 7C. I was born in Minsk, then lived in Toruń, and since August I've been living in Wrocław.",
       p2: "Every time I moved, I learned how to make friends quickly and settle into a new school. I know how important it is that everyone feels good here — both those who've been here for years and the new kids.",
       minsk: "Minsk", minskText: "Where I was born",
       torun: "Toruń", torunText: "Where I lived and went to school",
@@ -167,8 +165,6 @@ window.I18N = {
         { icon: "🎅", tag: "low", title: "Secret Santa", text: "We draw names and give each other small, fun gifts before the holidays." },
         { icon: "🥳", tag: "free", title: "Theme days", text: "Pajama day, colour day, backwards day — all you need is a good mood and something from your wardrobe." },
         { icon: "🧁", tag: "low", title: "Bake sale", text: "We bake and sell, and the money goes to school events or a charity." },
-        { icon: "🎵", tag: "free", title: "Music at break time", text: "A shared playlist where everyone can suggest their songs." },
-        { icon: "📚", tag: "free", title: "Book swap", text: "A shelf where you leave a book you've read and take another. Zero cost, lots of reading." },
         { icon: "🎲", tag: "free", title: "Board game breaks", text: "We bring games from home and play together on chosen days. Perfect for rainy weather." },
         { icon: "🌟", tag: "free", title: "School's Got Talent", text: "Do you sing, dance, juggle? Take the stage once a semester!" }
       ]
@@ -235,13 +231,13 @@ window.I18N = {
   ru: {
     meta: {
       title: "Varvara K. — Выборы в школьное самоуправление",
-      description: "Варвара K., 7B — кандидат в старосты школы. Программа, идеи и игры."
+      description: "Варвара K., 7C — кандидат в старосты школы. Программа, идеи и игры."
     },
     nav: { about: "Обо мне", why: "Почему я", program: "Программа", ideas: "Идеи", games: "Игры", links: "Ссылки", menu: "Меню" },
     hero: {
       badge: "Выборы в школьное самоуправление",
       role: "Кандидат в старосты школы",
-      meta: "14 лет · 7B класс",
+      meta: "14 лет · 7C класс",
       lead: "Хочу, чтобы в нашу школу хотелось приходить. Меньше скуки — больше общих моментов!",
       ctaProgram: "Моя программа",
       ctaIdeas: "Поделиться идеей",
@@ -256,7 +252,7 @@ window.I18N = {
     photo: { alt1: "Фото Варвары", alt2: "Варвара — фото 2", alt3: "Варвара — фото 3" },
     about: {
       title: "Обо мне",
-      p1: "Привет! Я Варвара, мне 14 лет, я учусь в 7B. Я родилась в Минске, потом жила в Торуне, а с августа живу во Вроцлаве.",
+      p1: "Привет! Я Варвара, мне 14 лет, я учусь в 7C. Я родилась в Минске, потом жила в Торуне, а с августа живу во Вроцлаве.",
       p2: "В каждом новом месте я училась быстро знакомиться с людьми и привыкать к новой школе. Я знаю, как важно, чтобы здесь всем было хорошо — и тем, кто учится тут много лет, и новеньким.",
       minsk: "Минск", minskText: "Здесь я родилась",
       torun: "Торунь", torunText: "Здесь я жила и ходила в школу",
@@ -280,8 +276,6 @@ window.I18N = {
         { icon: "🎅", tag: "low", title: "Тайный Санта", text: "Тянем жребий и перед праздниками дарим друг другу небольшие приятные подарки." },
         { icon: "🥳", tag: "free", title: "Тематические дни", text: "День пижам, день цвета, день наоборот — нужно только хорошее настроение и что-то из шкафа." },
         { icon: "🧁", tag: "low", title: "Ярмарка выпечки", text: "Печём и продаём, а собранные деньги идут на школьные события или благотворительность." },
-        { icon: "🎵", tag: "free", title: "Музыка на переменах", text: "Общий плейлист, в который каждый может предложить свои песни." },
-        { icon: "📚", tag: "free", title: "Обмен книгами", text: "Полка, где оставляешь прочитанную книгу и берёшь другую. Ноль затрат, много чтения." },
         { icon: "🎲", tag: "free", title: "Перемена с настолками", text: "Приносим игры из дома и играем вместе в выбранные дни. Идеально для дождливой погоды." },
         { icon: "🌟", tag: "free", title: "Школа ищет таланты", text: "Поёшь, танцуешь, жонглируешь? Выходи на сцену раз в семестр!" }
       ]
@@ -348,13 +342,13 @@ window.I18N = {
   uk: {
     meta: {
       title: "Varvara K. — Вибори до учнівського самоврядування",
-      description: "Варвара K., 7B — кандидатка на посаду голови учнівського самоврядування. Програма, ідеї та ігри."
+      description: "Варвара K., 7C — кандидатка на посаду голови учнівського самоврядування. Програма, ідеї та ігри."
     },
     nav: { about: "Про мене", why: "Чому я", program: "Програма", ideas: "Ідеї", games: "Ігри", links: "Посилання", menu: "Меню" },
     hero: {
       badge: "Вибори до учнівського самоврядування",
       role: "Кандидатка на посаду голови учнівського самоврядування",
-      meta: "14 років · клас 7B",
+      meta: "14 років · клас 7C",
       lead: "Хочу, щоб до нашої школи хотілося приходити. Менше нудьги — більше спільних моментів!",
       ctaProgram: "Моя програма",
       ctaIdeas: "Поділитися ідеєю",
@@ -369,7 +363,7 @@ window.I18N = {
     photo: { alt1: "Фото Варвари", alt2: "Варвара — фото 2", alt3: "Варвара — фото 3" },
     about: {
       title: "Про мене",
-      p1: "Привіт! Я Варвара, мені 14 років, і я навчаюся в класі 7B. Я народилася в Мінську, потім жила в Торуні, а з серпня живу у Вроцлаві.",
+      p1: "Привіт! Я Варвара, мені 14 років, і я навчаюся в класі 7C. Я народилася в Мінську, потім жила в Торуні, а з серпня живу у Вроцлаві.",
       p2: "У кожному новому місці я вчилася швидко знайомитися з людьми й звикати до нової школи. Я знаю, як важливо, щоб тут усім було добре — і тим, хто навчається тут роками, і новеньким.",
       minsk: "Мінськ", minskText: "Тут я народилася",
       torun: "Торунь", torunText: "Тут я жила й ходила до школи",
@@ -393,8 +387,6 @@ window.I18N = {
         { icon: "🎅", tag: "low", title: "Таємний Санта", text: "Тягнемо жереб і перед святами даруємо одне одному невеликі приємні подарунки." },
         { icon: "🥳", tag: "free", title: "Тематичні дні", text: "День піжам, день кольору, день навпаки — потрібен лише гарний настрій і щось із шафи." },
         { icon: "🧁", tag: "low", title: "Ярмарок випічки", text: "Печемо й продаємо, а зібрані гроші йдуть на шкільні події або благодійність." },
-        { icon: "🎵", tag: "free", title: "Музика на перервах", text: "Спільний плейлист, до якого кожен може запропонувати свої пісні." },
-        { icon: "📚", tag: "free", title: "Обмін книжками", text: "Полиця, де залишаєш прочитану книжку й береш іншу. Нуль витрат, багато читання." },
         { icon: "🎲", tag: "free", title: "Перерва з настілками", text: "Приносимо ігри з дому й граємо разом у вибрані дні. Ідеально для дощової погоди." },
         { icon: "🌟", tag: "free", title: "Шкільний талант-шоу", text: "Співаєш, танцюєш, жонглюєш? Виходь на сцену раз на семестр!" }
       ]
