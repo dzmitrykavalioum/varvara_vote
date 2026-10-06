@@ -13,7 +13,7 @@ window.SITE_CONFIG = {
   showCountdown: true,
 
   // Ссылка на Google Форму. Пока пусто — кнопка покажет «Форма скоро появится»
-  googleFormUrl: "",
+  googleFormUrl: "https://forms.gle/HErYfxXya4xn9hoN8",
 
   // Сайт школы (раздел «Полезные ссылки»)
   schoolUrl: "https://zsp27.pl/szkola/",
