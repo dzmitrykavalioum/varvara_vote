@@ -107,7 +107,7 @@ window.I18N = {
       title: "Polityka prywatności",
       items: [
         "To prywatna, niekomercyjna strona kampanii do Samorządu Uczniowskiego.",
-        "<b>Statystyki.</b> Liczymy odwiedziny za pomocą GoatCounter — bez plików cookies i bez zbierania danych osobowych. Widzimy tylko zbiorcze liczby, np. ile osób odwiedziło stronę.",
+        "<b>Statystyki.</b> Liczymy odwiedziny za pomocą Cloudflare Web Analytics — bez plików cookies i bez zbierania danych osobowych. Widzimy tylko zbiorcze liczby, np. ile osób odwiedziło stronę.",
         "<b>Formularz pomysłów.</b> Działa w Google Forms, więc dane przetwarza Google. Nie musisz podawać imienia — możesz pisać anonimowo.",
         "<b>Pamięć przeglądarki.</b> Strona zapisuje na Twoim urządzeniu tylko wybrany język i rekord w grze. Te dane do nas nie trafiają.",
         "<b>Kontakt.</b> W sprawie strony możesz napisać przez formularz pomysłów."
@@ -218,7 +218,7 @@ window.I18N = {
       title: "Privacy policy",
       items: [
         "This is a private, non-commercial page for a Student Council election campaign.",
-        "<b>Statistics.</b> We count visits with GoatCounter — no cookies and no personal data. We only see total numbers, e.g. how many people visited.",
+        "<b>Statistics.</b> We count visits with Cloudflare Web Analytics — no cookies and no personal data. We only see total numbers, e.g. how many people visited.",
         "<b>Ideas form.</b> It runs on Google Forms, so the data is processed by Google. You don't have to give your name — you can write anonymously.",
         "<b>Browser storage.</b> The page saves only your chosen language and game record on your own device. That data never reaches us.",
         "<b>Contact.</b> For questions about this page, use the ideas form."
@@ -329,7 +329,7 @@ window.I18N = {
       title: "Политика конфиденциальности",
       items: [
         "Это частный некоммерческий сайт предвыборной кампании в школьное самоуправление.",
-        "<b>Статистика.</b> Мы считаем посещения с помощью GoatCounter — без cookies и без сбора личных данных. Видны только общие цифры, например сколько человек зашло на сайт.",
+        "<b>Статистика.</b> Мы считаем посещения с помощью Cloudflare Web Analytics — без cookies и без сбора личных данных. Видны только общие цифры, например сколько человек зашло на сайт.",
         "<b>Форма идей.</b> Работает на Google Forms, поэтому данные обрабатывает Google. Имя указывать не обязательно — можно писать анонимно.",
         "<b>Память браузера.</b> Сайт сохраняет на твоём устройстве только выбранный язык и рекорд в игре. Эти данные к нам не попадают.",
         "<b>Связь.</b> По вопросам о сайте можно написать через форму идей."
@@ -440,7 +440,7 @@ window.I18N = {
       title: "Політика конфіденційності",
       items: [
         "Це приватний некомерційний сайт передвиборчої кампанії до учнівського самоврядування.",
-        "<b>Статистика.</b> Ми рахуємо відвідування за допомогою GoatCounter — без cookies і без збору особистих даних. Видно лише загальні цифри, наприклад скільки людей відвідало сайт.",
+        "<b>Статистика.</b> Ми рахуємо відвідування за допомогою Cloudflare Web Analytics — без cookies і без збору особистих даних. Видно лише загальні цифри, наприклад скільки людей відвідало сайт.",
         "<b>Форма ідей.</b> Працює на Google Forms, тому дані обробляє Google. Ім'я вказувати не обов'язково — можна писати анонімно.",
         "<b>Пам'ять браузера.</b> Сайт зберігає на твоєму пристрої лише вибрану мову та рекорд у грі. Ці дані до нас не потрапляють.",
         "<b>Зв'язок.</b> З питань щодо сайту можна написати через форму ідей."
